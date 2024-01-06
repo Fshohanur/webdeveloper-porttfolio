@@ -72,10 +72,14 @@ nav a {
 /* header related styles */
 .header {
     background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right,top left;
+   
+  
+
 }
+
 
 
 .banner {
@@ -239,14 +243,18 @@ footer {
 .footer-column {
     width: 50%;
 }
-.social-links a{
-     margin-right: 25px;
-     
+
+.social-links a {
+    margin-right: 25px;
+
 }
-.social-links{
+
+.social-links {
     padding: 50px;
 }
-.contact input[type="text"], .contact input[type="email"],
+
+.contact input[type="text"],
+.contact input[type="email"],
 textarea {
     display: block;
     margin-bottom: 25px;
@@ -255,8 +263,8 @@ textarea {
     font-size: 16px;
     font-weight: 400;
     border-radius: 5px;
-background:  #FFF;
-border: 0;
-width: 100%;
+    background: #FFF;
+    border: 0;
+    width: 100%;
 
 }
